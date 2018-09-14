@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Aug 31 17:39:22 2018
+
+@author: emilytonkovich
+"""
+import math
+
+a=12
+b=4
+c=math.pi/6
+
+areaTri=0.5*a*b*math.sin(c)
+print('The area of a triangle is ',math.ceil(areaTri),' [cm^2] for a given length of ',float(a),' [cm] and ',float(b),' [cm] with the angle of ',math.ceil(c*180/math.pi),' [degrees] in between.')
