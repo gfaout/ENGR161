@@ -43,3 +43,4 @@ def calcHour(xVec,yVec):
 #  Outputs
 #---------------------------------------------------
 print(calcHour(x,y))
+print(round(calcHour(x,y)), " Gong sounds")
